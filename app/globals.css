@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.cdnfonts.com/css/saturnus');
+/* Configurações globais */
+html {
+  scroll-behavior: smooth;
+  background: rgb(137, 53, 53);
+  background: linear-gradient(90deg, rgba(137, 53, 53, 1) 0%, rgba(165, 84, 84, 1) 100%);
+}
+
+body {
+  @apply text-[#802424];
+
+}
+
+/* Personalizações do Carousel */
+.carousel .slide img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.carousel .control-arrow {
+  @apply bg-[#802424]/20 hover:bg-[#802424]/40 transition-colors;
+}
+
+.carousel .control-dots .dot {
+  @apply bg-pink-500;
+}
+
+/* Animações de transição */
+.section-transition {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+/* Estilos para imagens com hover */
+.image-hover {
+  @apply transition-transform duration-300 hover:scale-105;
+}
+
+/* Estilos para formulários */
+input,
+textarea,
+select {
+  @apply outline-none transition-all duration-200;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  @apply ring-2 border-transparent;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(27%) sepia(87%) saturate(919%) hue-rotate(338deg) brightness(86%) contrast(88%);
+}
+
+/* Estilos para botões */
+.btn {
+  @apply px-6 py-2 rounded-full transition-all duration-300;
+}
+
+.btn-primary {
+  @apply bg-[#802424] text-white hover:bg-[#E6B0AA];
+}
+
+.btn-secondary {
+  @apply bg-gray-200 text-gray-800 hover:bg-gray-300;
+}
+
+/* Personalização da barra de rolagem */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-[#FDFEFE];
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-[#e3d8fa] rounded-full hover:bg-[#E6B0AA];
+}
+
+/* Estilos para textos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold;
+
+}
+
+/* Classes de utilidade personalizadas */
+.container {
+  @apply px-4 mx-auto max-w-7xl;
+}
+
+/* Estilos para links */
+a {
+  @apply transition-colors duration-300;
+}
+
+/* Classes para espaçamento de seção */
+.section-padding {
+  @apply py-16 md:py-24;
+}
+
+/* Classes para fade in de elementos */
+.fade-in {
+  @apply animate-fade-in;
+}
+
+/* Classes para slide up de elementos */
+.slide-up {
+  @apply animate-slide-up;
+}

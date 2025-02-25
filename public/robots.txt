@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://saboreardoceria.vercel.app/sitemap.xml
