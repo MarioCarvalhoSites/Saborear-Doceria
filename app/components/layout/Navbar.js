@@ -8,7 +8,6 @@ Rosa Claro Blush #FADBD8
 Rosa Pastel Antigo #E6B0AA
 Banco Perola #FDFEFE
 Cinza Suave #D5D8DC
-
 Fonte - Saturnus
 */
 export default function Navbar() {
