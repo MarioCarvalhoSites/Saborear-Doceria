@@ -8,16 +8,16 @@ export const metadata = {
 					sonhos em realidade com bolos e doces únicos que encantam todos os sentidos.
 					Somos especialistas em confeitaria criativa, inclusive bolos com efeitos especiais.
                     Nossa equipe combina técnica impecável e inovação para criar verdadeiras obras de arte comestíveis.`,
-	url: "https://saboreardoceria.vercel.app", // Certifique-se que a URL está correta
+	url: "https://www.saboreardoceria.com", // Certifique-se que a URL está correta
 	publisher: {
 		"@type": "Organization",
 		"name": "Saborear Doceria",
 		"logo": {
 			"@type": "ImageObject",
-			"url": "https://saboreardoceria.vercel.app/logo.png"
+			"url": "https://www.saboreardoceria.com/logo.png"
 		}
 	},
-	metadataBase: new URL("https://saboreardoceria.vercel.app"),
+	metadataBase: new URL("https://www.saboreardoceria.com"),
 	icons: {
 		icon: "/favicon.png",
 	},
@@ -27,15 +27,15 @@ export const metadata = {
 		description:
 			"Especialistas em bolos confeitados para aniversários, casamentos e formaturas.",
 		images: [
-			"https://saboreardoceria.vercel.app/gallery/gallery-1.jpg",
-			"https://saboreardoceria.vercel.app/gallery/gallery-2.jpg",
-			"https://saboreardoceria.vercel.app/gallery/gallery-3.jpg",
-			"https://saboreardoceria.vercel.app/gallery/gallery-4.jpg",
-			"https://saboreardoceria.vercel.app/gallery/gallery-5.jpg",
-			"https://saboreardoceria.vercel.app/gallery/gallery-6.jpg",
-			"https://saboreardoceria.vercel.app/gallery/gallery-7.jpg",
-			"https://saboreardoceria.vercel.app/gallery/gallery-8.jpg",
-			"https://saboreardoceria.vercel.app/gallery/gallery-9.jpg",
+			"https://www.saboreardoceria.com/gallery/gallery-1.jpg",
+			"https://www.saboreardoceria.com/gallery/gallery-2.jpg",
+			"https://www.saboreardoceria.com/gallery/gallery-3.jpg",
+			"https://www.saboreardoceria.com/gallery/gallery-4.jpg",
+			"https://www.saboreardoceria.com/gallery/gallery-5.jpg",
+			"https://www.saboreardoceria.com/gallery/gallery-6.jpg",
+			"https://www.saboreardoceria.com/gallery/gallery-7.jpg",
+			"https://www.saboreardoceria.com/gallery/gallery-8.jpg",
+			"https://www.saboreardoceria.com/gallery/gallery-9.jpg",
 		],
 	},
 	structuredData: {
@@ -43,13 +43,13 @@ export const metadata = {
 		"@type": "WebSite",
 		"name": "Saborear Doceria",
 		"description": "Bolos e doces artesanais para momentos especiais.",
-		"url": "https://saboreardoceria.vercel.app",
+		"url": "https://www.saboreardoceria.com",
 		"publisher": {
 			"@type": "Organization",
 			"name": "Saborear Doceria",
 			"logo": {
 				"@type": "ImageObject",
-				"url": "https://saboreardoceria.vercel.app/logo.png"
+				"url": "https://www.saboreardoceria.com/logo.png"
 			}
 		}
 	}
